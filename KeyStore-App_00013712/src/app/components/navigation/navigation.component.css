@@ -1,0 +1,67 @@
+/*Navigation css Student_ID_ 00013712*/
+.flex-1 {
+    display: flex;
+    align-items: center;
+    background-color: #265e9e; 
+    padding: 0.5rem 1rem;
+}
+
+
+.example.icon {
+    margin-right: 1rem;
+    position: relative; 
+}
+
+.example.icon::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 2em; 
+    height: 2em; 
+    border: 2px solid transparent;
+    border-radius: 50%; 
+    opacity: 0; 
+    transition: opacity 0.3s ease, border-color 0.3s ease, transform 0.3s ease; 
+}
+
+.example.icon:hover::before {
+    opacity: 1; 
+    border-color: white; 
+}
+
+span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 1rem;
+    opacity: 1;
+    color: #fff; 
+}
+.mx-3.btn{
+    background-color: #265e9e;
+
+}
+.btn {  
+    padding: .2rem 1rem;
+    border: 1px solid white;
+  border-radius: 10%;
+  font-size: 1rem;
+  font-style: normal;
+  color: white;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: black;
+    transition: all 2s;
+    border: 1px solid black;
+    font-size: large;
+}
+
+
+  
+  
+ 
+  
+  

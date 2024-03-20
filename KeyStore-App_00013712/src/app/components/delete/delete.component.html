@@ -1,0 +1,27 @@
+<!--Delete html Student_ID_00013712-->
+<div class="flex mt-8 justify-center">
+    <mat-card class="shadow w-4/12">
+        <mat-card-content>
+            <div class="p-8">
+                <h2 class="text-3xl font-bold mb-4">Login: <span class="text-gray-600">{{ deleteKeyStore.login }}</span></h2>
+                <h2 class="text-3xl font-bold mb-4">Password: <span class="text-gray-600">{{ deleteKeyStore.password }}</span></h2>
+                <h2 class="text-3xl font-bold mb-4">WebPlatform: <span class="text-gray-600">{{ deleteKeyStore.webPlatform }}</span></h2>
+                <div class="mt-4">
+                    <span class="text-gray-600">User Name:</span>
+                    <mat-chip class="ml-2 larger-font">{{ deleteKeyStore.userStore.name}}</mat-chip>
+                </div>
+            </div>
+            <div class="flex justify-around">
+                <div>
+                    <button mat-raised-button color="primary" (click)="onHomeButtonClick()">Cancel</button>
+                </div>
+                <div>
+                    <button mat-raised-button color="warn" (click)="onDeleteButtonClick(deleteKeyStore.id)">Delete</button>
+                </div>
+            </div>
+        </mat-card-content>
+    </mat-card>
+</div>
+
+<!--Delete html Student_ID_00013712-->
+

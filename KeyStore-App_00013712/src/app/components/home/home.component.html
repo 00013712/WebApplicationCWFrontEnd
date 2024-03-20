@@ -1,0 +1,50 @@
+<!--Home html Student_ID_00013712-->
+<div class="m-4">
+  <table mat-table [dataSource]="itemsList" class="mat-elevation-z8 hoverable-table">
+    <!-- Id Column -->
+    <ng-container matColumnDef="ID">
+      <th mat-header-cell *matHeaderCellDef> ID </th>
+      <td mat-cell *matCellDef="let element"> {{element.id}} </td>
+    </ng-container>
+
+    <!-- Login Column -->
+    <ng-container matColumnDef="Login">
+      <th mat-header-cell *matHeaderCellDef> Login </th>
+      <td mat-cell *matCellDef="let element"> {{element.login}} </td>
+    </ng-container>
+
+    <!-- Password Column -->
+    <ng-container matColumnDef="Password">
+      <th mat-header-cell *matHeaderCellDef> Password </th>
+      <td mat-cell *matCellDef="let element"> {{element.password}} </td>
+    </ng-container>
+
+    <!-- WebPlatform Column -->
+    <ng-container matColumnDef="WebPlatform">
+      <th mat-header-cell *matHeaderCellDef> WebPlatform </th>
+      <td mat-cell *matCellDef="let element"> {{element.webPlatform}} </td>
+    </ng-container>
+
+    <!-- Name Column -->
+    <ng-container matColumnDef="Name">
+      <th mat-header-cell *matHeaderCellDef>User Name </th>
+      <td mat-cell *matCellDef="let element"> {{element.userStore.name}} </td>
+    </ng-container>
+
+    <!-- Actions Column -->
+    <ng-container matColumnDef="Actions">
+      <th mat-header-cell *matHeaderCellDef style="text-align: center;"> Actions </th>
+      <td mat-cell *matCellDef="let element" class="actions-cell">
+        <!--<button mat-raised-button color="green" (click)="CreateClicked()">Create</button>-->
+        <button mat-raised-button class="edit-button" (click)="EditClicked(element.id)">Edit</button>
+        <button mat-raised-button class="details-button" (click)="DetailsClicked(element.id)">Details</button>
+        <button mat-raised-button class="delete-button" (click)="DeleteClicked(element.id)">Delete</button>
+      </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;" class="hoverable-row"></tr>
+  </table>
+</div>
+
+<!--Home html Student_ID_00013712-->

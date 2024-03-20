@@ -1,0 +1,48 @@
+<!--Create html Student_ID_00013712-->
+<div class="p-8 mt-8 flex justify-center">
+    <form class="shadow border w-4/12 p-4 form-container">
+        <div class="flex">
+            <mat-form-field class="w-full">
+                <mat-label>
+                    Login:
+                </mat-label>
+                <input matInput name="Login" type="text" [(ngModel)]="createKey.login" class="mat-input">
+            </mat-form-field>
+        </div>
+        <div class="flex">
+            <mat-form-field class="w-full">
+                <mat-label>
+                    Password:
+                </mat-label>
+                <input matInput name="Password" type="text" [(ngModel)]="createKey.password" class="mat-input">
+            </mat-form-field>
+        </div>
+        <div class="flex">
+            <mat-form-field class="w-full">
+                <mat-label>
+                    WebPlatform:
+                </mat-label>
+                <input matInput name="WebPlatform" type="text" [(ngModel)]="createKey.webPlatform" class="mat-input">
+            </mat-form-field>
+        </div>
+        <div class="flex">
+            <mat-form-field class="w-full">
+                <mat-label>
+                    User Name:
+                </mat-label>
+                <mat-select [(ngModel)]="cID" name="Name">
+                    @for (c of cate; track c) 
+                    {
+                        <mat-option [value]="c.id">{{c.name}}</mat-option>
+                    }
+                </mat-select> 
+            </mat-form-field>
+        </div>
+        <div class="flex justify-center">
+            <button mat-raised-button color="primary" (click)="createKeyStoreitems()" class="btn">
+                Create
+            </button>
+        </div>
+    </form>
+</div>
+<!--Create html Student_ID_00013712-->

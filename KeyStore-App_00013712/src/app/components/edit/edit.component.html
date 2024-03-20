@@ -1,0 +1,53 @@
+<!--Edit html Student_ID_00013712-->
+<div class="p-8 mt-8 flex justify-center">
+    <form class="shadow border w-4/12 p-4">
+        <div class="flex">
+            <mat-form-field class="w-full">
+                <mat-label>
+                    Login:
+                </mat-label>
+                <input matInput name="login" type="text" [(ngModel)]="editKey.login">
+            </mat-form-field>
+        </div>
+        <div class="flex">
+            <mat-form-field class="w-full">
+                <mat-label>
+                    Password:
+                </mat-label>
+                <input matInput name="password" type="text" [(ngModel)]="editKey.password">
+            </mat-form-field>
+        </div>
+        <div class="flex">
+            <mat-form-field class="w-full">
+                <mat-label>
+                    WebPlatform:
+                </mat-label>
+                <input matInput name="WebPlatform" type="text" [(ngModel)]="editKey.webPlatform">
+            </mat-form-field>
+        </div>
+        <div class="flex">
+            <mat-form-field class="w-full">
+                <mat-label>
+                    User Name:
+                </mat-label>
+                <mat-select [(ngModel)]="cID" [(value)]="selected" name="Name">
+                    @for (c of userstoreObject; track c) 
+                    {
+                        <mat-option [value]="c.id">{{c.name}}</mat-option>
+                    }
+                </mat-select> 
+            </mat-form-field>
+        </div>
+        <div class="flex justify-center">
+            <button mat-raised-button  class="edit" (click)="edit()">
+                Edit
+            </button>
+            <button mat-raised-button class="cancel" (click)="toHome()"> 
+                Cancel 
+            </button>
+            
+        </div>
+    </form>
+</div>
+
+<!--Edit html Student_ID_00013712-->

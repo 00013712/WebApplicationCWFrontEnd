@@ -1,0 +1,64 @@
+/*Edit css Student_ID_ 00013712*/
+.p-8 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  form {
+    width: 50%;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  mat-form-field {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  mat-form-field:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .flex.justify-center {
+    display: flex;
+    justify-content:space-evenly; 
+  }
+
+  button {
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin-right: 10px; 
+    font-size: large;
+    padding: 1.5rem 2rem;
+    color: white;
+  }
+
+  button.cancel {
+    background-color: darkred;
+    color: white;
+  }
+
+  button.cancel:hover {
+    background-color: red;
+    font-size: larger;
+    border: 1px solid red;
+  }
+  
+  button.edit {
+    background-color: darkgreen;
+    color: white;
+  }
+  
+  button.edit:hover {
+    background-color: green;
+    font-size: larger;
+    border: 1px solid green;
+    
+  }
+
+  /*Edit css Student_ID_ 00013712*/
+  

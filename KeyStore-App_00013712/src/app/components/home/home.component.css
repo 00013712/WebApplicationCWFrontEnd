@@ -1,0 +1,58 @@
+/* Home css Student_ID_00013712 */
+.m-4 {
+  width: 100%;
+}
+
+.hoverable-row:hover {
+  background-color:lightgrey; /* Change background color on hover */
+}
+
+.hoverable-row:hover td {
+  transform: scale(1.05); /* Increase size on hover */
+}
+
+.actions-cell {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete-button{
+  background-color: red !important ;
+  color: white !important;
+  font-size: 16px;
+  margin-right: 3rem;
+}
+
+.edit-button{
+  background-color: #265e9e !important;
+  color: white !important;
+  font-size: 16px;
+  margin-left: 3rem;
+}
+
+.details-button {
+  background-color: green !important;
+  color: white !important;
+  font-size: 16px;
+  margin-left: 3rem;
+}
+
+.delete-button:hover{
+  transform: scale(1.1);
+  border: 3px solid red;
+  transition: 1s all ease;
+}
+.edit-button:hover{
+  transform: scale(1.1);
+  border: 3px solid #265e9e;
+  transition: 1s all ease;
+
+}
+.details-button:hover {
+  transform: scale(1.1);
+  border: 3px solid green;
+  transition: 1s all ease;
+}
+
+/* Home css Student_ID_00013712 */

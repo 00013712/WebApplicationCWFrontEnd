@@ -1,0 +1,32 @@
+/*Create css Student_ID_ 00013712*/
+.form-container {
+    transition: all 0.3s ease;
+}
+
+.mat-input {
+    transition: 0.3 ease;
+    border-color: 0.3s ease;
+}
+
+.btn {
+    transition: all 0.3s ease;
+    padding: 1.5rem 2rem;
+    font-size: 1rem;
+    background-color: #265e9e;
+}
+
+.mat-input:hover {
+    border-color: #265e9e; 
+}
+
+.btn:hover {
+    background-color: #265e9e; 
+    color: white; 
+    border: 3px solid #265e9e;
+}
+
+.form-container:hover {
+    transform: scale(1.05); 
+}
+
+/*Create css Student_ID_ 00013712*/

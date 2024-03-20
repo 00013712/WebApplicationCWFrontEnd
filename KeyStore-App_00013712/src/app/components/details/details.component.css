@@ -1,0 +1,46 @@
+/*Details css Student_ID_ 00013712*/
+.details-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 8rem; 
+}
+
+.details-card {
+    width: 50%; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.details-content {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.details-item {
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px; /* Add margin bottom for spacing between items */
+}
+
+.details-label {
+    color: #666; 
+    min-width: 120px; /* Set a minimum width for consistent alignment */
+    font-weight: bold; /* Make the label text bold */
+    margin-right: 8px;
+    font-size: 1.5rem;
+}
+
+.details-value {
+    cursor: pointer; 
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+ 
+.details-value:hover {
+    background-color: #f0f0f0; 
+    border-radius: 0.5rem; 
+    transition: background-color 0.3s ease, border-radius 0.3s ease; 
+}
+
+/*Details css Student_ID_ 00013712*/

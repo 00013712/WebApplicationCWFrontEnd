@@ -1,0 +1,73 @@
+/*Delete css Student_ID_ 00013712*/
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mat-card {
+    width: 50%; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    font-size: 1.5rem;
+}
+
+.mat-card:hover {
+    transform: scale(1.05);
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+span {
+    font-size: 1.5rem; 
+}
+
+.mat-chip {
+    background-color: #f0f0f0; 
+    color: #333; 
+    padding: 0.5rem 1rem;
+}
+
+.flex.justify-around {
+    margin-top: 1rem; 
+}
+
+button {
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 1rem;
+    font-size: 1.5rem; 
+}
+
+button:hover {
+    background-color: #ddd; 
+}
+
+button[color="primary"] {
+    background-color: #265e9e; 
+    color: #fff;
+}
+
+button[color="warn"] {
+    background-color: darkred; 
+    color: #fff;
+}
+
+button[color="primary"]:hover {
+    background-color: blue; 
+}
+
+button[color="warn"]:hover {
+    background-color: red;
+}
+
+/*Delete css Student_ID_ 00013712*/
+
+
+
+
